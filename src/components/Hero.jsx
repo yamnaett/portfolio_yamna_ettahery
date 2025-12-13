@@ -117,7 +117,7 @@ const Hero = () => {
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
               >
                 <img
-                  src="/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
                   alt="Yamna Et-Tahery"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -164,7 +164,7 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 mb-8"
           >
             <motion.a
-              href="/cv.pdf"
+              href={`${import.meta.env.BASE_URL}cv.pdf`}
               download
               whileHover={{ scale: 1.08, y: -3 }}
               whileTap={{ scale: 0.95 }}
