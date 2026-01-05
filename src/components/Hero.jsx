@@ -153,7 +153,7 @@ const Hero = () => {
               letterSpacing: '0.01em',
             }}
           >
-            <TypingEffect text="Future Ingénieure Testeur/se | Développeuse Full-Stack" speed={50} />
+            <TypingEffect text="Future Ingénieure Testeurse" speed={50} />
           </motion.div>
 
           {/* CTA Buttons */}
